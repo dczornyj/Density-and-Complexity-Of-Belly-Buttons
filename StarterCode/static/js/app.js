@@ -41,7 +41,7 @@ d3.json("samples.json").then((data) => {
 
 
 
-    //for Demographic Chart. All the values are good, after testing. I just need to plot into panel
+    //for Demographic Chart. All the values are good, after testing. I just need to append into panel
 
     dem_chart_data = data.metadata.filter(obj => obj.id == selected)
     selec_age = dem_chart_data[0].age
@@ -52,6 +52,7 @@ d3.json("samples.json").then((data) => {
     selec_location = dem_chart_data[0].location
     selec_wfreq = dem_chart_data[0].wfreq
  
+    console.log(selec_gender)
 
 
 })
