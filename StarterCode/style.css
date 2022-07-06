@@ -1,0 +1,14 @@
+.title_format {
+    background: rgba(44, 250, 56, 1) ;
+    font-weight: 400px;
+}
+
+.subtitle_format {
+   background: rgba(45, 112, 250, 1);
+   font-weight: 400px;
+   font-weight: bold;
+}
+
+#sample-metadata {
+    background: beige ;
+}
